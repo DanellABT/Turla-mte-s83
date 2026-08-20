@@ -1,1 +1,156 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loomie | Premium Clothing</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="index.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-warm-nav sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase tracking-wide text-warm-dark" href="#">Loomie</a>
+            
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold text-warm-accent" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warm-dark" href="#">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warm-dark" href="#">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warm-dark" href="#">Accessories</a>
+                    </li>
+                </ul>
+                <div class="d-flex ms-lg-4 gap-3">
+                    <a href="#" class="nav-link text-warm-dark">Search</a>
+                    <a href="#" class="nav-link text-warm-dark fw-bold">Cart (0)</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section d-flex align-items-center text-center text-white">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="display-3 fw-bold mb-3 text-cream">Autumn Collection</h1>
+            <p class="lead mb-4 text-cream-muted">Embrace the season with our warm, sustainable essentials.</p>
+            <div>
+                <button class="btn btn-warm btn-lg px-4 me-2">Shop New Arrivals</button>
+                <button class="btn btn-outline-light btn-lg px-4 brand-btn-outline">View Lookbook</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="py-5 container flex-grow-1 mt-4">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-uppercase text-warm-dark">Featured Collection</h2>
+            <p class="text-muted-warm">Handpicked essentials for the season</p>
+        </div>
+
+        <!-- Product Cards -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm product-card bg-white">
+                    <img src="https://images.unsplash.com/photo-1434389678369-1822d54e5a4d?auto=format&fit=crop&q=80&w=800" class="card-img-top product-img" alt="Warm Knit Sweater">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fs-6 fw-bold text-warm-dark">Warm Knit Sweater</h5>
+                        <p class="card-text text-warm-accent fw-semibold mb-3">$65.00</p>
+                        <button class="btn btn-warm w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm product-card bg-white">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&q=80&w=800" class="card-img-top product-img" alt="Vintage Denim Jacket">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fs-6 fw-bold text-warm-dark">Vintage Denim Jacket</h5>
+                        <p class="card-text text-warm-accent fw-semibold mb-3">$89.00</p>
+                        <button class="btn btn-warm w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm product-card bg-white">
+                    <img src="https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&q=80&w=800" class="card-img-top product-img" alt="Terracotta Midi Dress">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fs-6 fw-bold text-warm-dark">Terracotta Midi Dress</h5>
+                        <p class="card-text text-warm-accent fw-semibold mb-3">$55.00</p>
+                        <button class="btn btn-warm w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm product-card bg-white">
+                    <img src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&q=80&w=800" class="card-img-top product-img" alt="Classic Leather Boots">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fs-6 fw-bold text-warm-dark">Classic Leather Boots</h5>
+                        <p class="card-text text-warm-accent fw-semibold mb-3">$120.00</p>
+                        <button class="btn btn-warm w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warm-footer py-5 mt-5">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-uppercase fw-bold tracking-wide mb-3 text-cream">Loomie</h5>
+                    <p class="footer-muted small">Redefining modern fashion with sustainable, high-quality pieces designed for everyday elegance.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-3 fs-6 text-cream">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none footer-link">Shop</a></li>
+                        <li><a href="#" class="text-decoration-none footer-link">About Us</a></li>
+                        <li><a href="#" class="text-decoration-none footer-link">Contact</a></li>
+                        <li><a href="#" class="text-decoration-none footer-link">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-uppercase mb-3 fs-6 text-cream">Connect</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none footer-link">Instagram</a></li>
+                        <li><a href="#" class="text-decoration-none footer-link">Facebook</a></li>
+                        <li><a href="#" class="text-decoration-none footer-link">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary my-4 opacity-25">
+            <div class="text-center footer-muted small">
+                <p class="mb-0">&copy; 2026 Loomie. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
