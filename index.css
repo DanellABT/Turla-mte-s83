@@ -11,7 +11,7 @@
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: var(--bg-cream);
-    color: var(--text-dark-brown);
+    color: var(--text-dark-brown); 
 }
 
 .tracking-wide {
